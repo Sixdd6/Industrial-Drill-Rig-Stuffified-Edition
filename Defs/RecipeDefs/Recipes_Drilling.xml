@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+  
+  <!-- =========== Base Recipes =========== -->
+  
+  <RecipeDef Name="DrillRecipeBase" Abstract="True">
+	<defName>DrillRecipeBase</defName>
+	<description>Locate and extract minerals from within the earth.</description>
+	<jobString>Mining.</jobString>
+	<workSpeedStat>MiningSpeed</workSpeedStat>
+    <workSkill>Mining</workSkill>
+    <workSkillLearnFactor>5</workSkillLearnFactor>
+	<effectWorking>ConstructMetal</effectWorking>
+    <soundWorking>WorkingSound_DrillRig</soundWorking>
+  </RecipeDef>
+	
+  <RecipeDef Name="DrillMetalRecipeBase" ParentName="DrillRecipeBase" Abstract="True">
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>IndustrialPDA</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+    </products>
+    <workAmount>1200</workAmount>
+    <recipeUsers>
+      <li>IndustrialDrillRig</li>
+    </recipeUsers>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>IndustrialPDA</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  
+  <!-- =========== Metals & Coal =========== -->
+  
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+	<defName>DrillGold</defName>
+	<label>Extract Gold</label>
+    <products>
+      <Gold>50</Gold>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+	<defName>DrillUranium</defName>
+	<label>Extract Uranium</label>
+    <products>
+      <Uranium>50</Uranium>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+	<defName>DrillSilver</defName>
+	<label>Extract Silver</label>
+    <products>
+      <Silver>50</Silver>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+    <defName>DrillCharcoal</defName>
+    <label>Extract Charcoal</label>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <Charcoal>10</Charcoal>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+  <defName>DrillJade</defName>
+  <label>Extract Jade</label>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <Jade>10</Jade>
+    </products>
+  </RecipeDef>
+
+<!--  Begin Stuffified Construction Gems  -->
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+  <defName>DrillCinnabar</defName>
+  <label>Extract Cinnabar</label>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <Cinnabar>10</Cinnabar>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+  <defName>DrillGarnet</defName>
+  <label>Extract Garnet</label>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <Garnet>10</Garnet>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+  <defName>DrillPeridot</defName>
+  <label>Extract Peridot</label>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <Peridot>10</Peridot>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+  <defName>DrillAmethyst</defName>
+  <label>Extract Amethyst</label>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <Amethyst>10</Amethyst>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+  <defName>DrillCitrine</defName>
+  <label>Extract Citrine</label>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <Citrine>10</Citrine>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+  <defName>DrillTopaz</defName>
+  <label>Extract Topaz</label>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <Topaz>10</Topaz>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="DrillMetalRecipeBase">
+  <defName>DrillTurquoise</defName>
+  <label>Extract Turquoise</label>
+    <products>
+      <IndustrialPDA>1</IndustrialPDA>
+      <Turquoise>10</Turquoise>
+    </products>
+  </RecipeDef>
+
+</RecipeDefs>
