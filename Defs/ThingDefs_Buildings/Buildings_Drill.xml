@@ -36,10 +36,6 @@
     <interactionCellOffset>(0,0,-2)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
     <recipes>
-      <li>DrillSilver</li>
-      <li>DrillUranium</li>
-      <li>DrillGold</li>
-      <li>DrillJade</li>
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>
