@@ -4,11 +4,12 @@
   <ThingDef ParentName="BenchBase" Name="IndustrialDrillRig">
     <defName>IndustrialDrillRig</defName>
     <label>Industrial Mining Drill</label>
-    <ThingClass>Building_WorkTable_HeatPush</ThingClass>
+    <ThingClass>Building_WorkTable</ThingClass>
     <Description>A computerized electric industrial drilling rig for seeking out and extracting underground minerals. Consumes a very large amount of power.</Description>
     <graphicData>
       <texPath>Things/Building/Production/DrillRig</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <drawRotated>false</drawRotated>
       <drawSize>(3,3)</drawSize>
       <damageData>
         <rect>(0.3,0,5.4,6)</rect>
@@ -31,7 +32,7 @@
     </statBases>
     <Size>(3,3)</Size>
     <DesignationCategory>Production</DesignationCategory>
-    <Passability>Impassable</Passability>
+    <Passability>PassThroughOnly</Passability>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-2)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
@@ -43,8 +44,18 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>1200</basePowerConsumption>
+        <basePowerConsumption>150</basePowerConsumption>
         <startElectricalFires>true</startElectricalFires>
+      </li>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>50.0</fuelConsumptionRate>
+        <fuelCapacity>100.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </fuelFilter>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_HeatPusher">
