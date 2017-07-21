@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>UnfinishedPDADrillingUnknown</defName>
+		<label>Industrial PDA: Unknown</label>
+		<graphicData>
+			<texPath>Things/Item/Special/IndustrialPDAUnknown</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories />
+	</ThingDef>
+
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>UnfinishedPDADrillingCharcoal</defName>
+		<label>Industrial PDA: Charcoal</label>
+		<graphicData>
+			<texPath>Things/Item/Special/IndustrialPDADrillingCharcoal</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories />
+	</ThingDef>
+
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>UnfinishedPDADrillingGold</defName>
+		<label>Industrial PDA: Gold</label>
+		<graphicData>
+			<texPath>Things/Item/Special/IndustrialPDADrillingGold</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories />
+	</ThingDef>
+
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>UnfinishedPDADrillingSilver</defName>
+		<label>Industrial PDA: Silver</label>
+		<graphicData>
+			<texPath>Things/Item/Special/IndustrialPDADrillingSilver</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories />
+	</ThingDef>
+
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>UnfinishedPDADrillingUranium</defName>
+		<label>Industrial PDA: Uranium</label>
+		<graphicData>
+			<texPath>Things/Item/Special/IndustrialPDADrillingUranium</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories />
+	</ThingDef>
+
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>UnfinishedPDADrillingGemJade</defName>
+		<label>Industrial PDA: Jade</label>
+		<graphicData>
+			<texPath>Things/Item/Special/IndustrialPDADrillingGemJade</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories />
+	</ThingDef>
+
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>UnfinishedPDADrillingCALCopper</defName>
+		<label>Industrial PDA: Copper</label>
+		<graphicData>
+			<texPath>Things/Item/Special/IndustrialPDADrillingCALCopper</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories />
+	</ThingDef>
+
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>UnfinishedPDADrillingCALTin</defName>
+		<label>Industrial PDA: Tin</label>
+		<graphicData>
+			<texPath>Things/Item/Special/IndustrialPDADrillingCALTin</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories />
+	</ThingDef>
+
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>UnfinishedPDADrillingCALAluminum</defName>
+		<label>Industrial PDA: Aluminum</label>
+		<graphicData>
+			<texPath>Things/Item/Special/IndustrialPDADrillingCALAluminum</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories />
+	</ThingDef>
+
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>UnfinishedPDADrillingCALLead</defName>
+		<label>Industrial PDA: Lead</label>
+		<graphicData>
+			<texPath>Things/Item/Special/IndustrialPDADrillingCALLead</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories />
+	</ThingDef>
+
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>UnfinishedPDADrillingGemCinnabar</defName>
+		<label>Industrial PDA: Cinnabar</label>
+		<graphicData>
+			<texPath>Things/Item/Special/IndustrialPDADrillingGemCinnabar</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories />
+	</ThingDef>
+
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>UnfinishedPDADrillingGemGarnet</defName>
+		<label>Industrial PDA: Garnet</label>
+		<graphicData>
+			<texPath>Things/Item/Special/IndustrialPDADrillingGemGarnet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories />
+	</ThingDef>
+
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>UnfinishedPDADrillingGemPeridot</defName>
+		<label>Industrial PDA: Peridot</label>
+		<graphicData>
+			<texPath>Things/Item/Special/IndustrialPDADrillingGemPeridot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories />
+	</ThingDef>
+
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>UnfinishedPDADrillingGemAmethyst</defName>
+		<label>Industrial PDA: Amethyst</label>
+		<graphicData>
+			<texPath>Things/Item/Special/IndustrialPDADrillingGemAmethyst</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories />
+	</ThingDef>
+
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>UnfinishedPDADrillingGemCitrine</defName>
+		<label>Industrial PDA: Citrine</label>
+		<graphicData>
+			<texPath>Things/Item/Special/IndustrialPDADrillingGemCitrine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories />
+	</ThingDef>
+
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>UnfinishedPDADrillingGemTopaz</defName>
+		<label>Industrial PDA: Topaz</label>
+		<graphicData>
+			<texPath>Things/Item/Special/IndustrialPDADrillingGemTopaz</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories />
+	</ThingDef>
+
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>UnfinishedPDADrillingGemTurquoise</defName>
+		<label>Industrial PDA: Turquoise</label>
+		<graphicData>
+			<texPath>Things/Item/Special/IndustrialPDADrillingGemTurquoise</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stuffCategories />
+	</ThingDef>
+
+</Defs>
